@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #b0f2c2;
+}
+header{
+    background: #fcb7af;
+    height: 10vh;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.uno{
+    width: 100vh;
+    height: 80vh;
+    margin: 5vh;
+    background-color: #b0c2f2;
+}
+.button{
+    word-spacing: 40px;
+}
